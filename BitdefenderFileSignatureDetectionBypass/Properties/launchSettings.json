@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BitdefenderFileSignatureDetectionBypass": {
+      "commandName": "Project",
+      "commandLineArgs": "run -c \"E:\\Visual Studio\\Projects\\Chessora\\x64\\Release\\HelloArguments.exe.enc\" -k \"E:\\Visual Studio\\Projects\\Chessora\\x64\\Release\\HelloArguments.exe.key\" -args \"firstarg secondarg thirdarg\""
+    }
+  }
+}

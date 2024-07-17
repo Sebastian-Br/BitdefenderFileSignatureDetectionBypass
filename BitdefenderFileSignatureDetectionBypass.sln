@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitdefenderFileSignatureDetectionBypass", "BitdefenderFileSignatureDetectionBypass\BitdefenderFileSignatureDetectionBypass.csproj", "{83F86CA7-D063-4D80-B307-BF8663497C04}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RunPE64", "RunPE64\RunPE64.vcxproj", "{3D4B8419-18A7-4A87-9C51-C8D65E3C0D0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTests", "DotNetTests\DotNetTests.csproj", "{B8E10499-EAF6-4F25-8D1E-61DA8C600CD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83F86CA7-D063-4D80-B307-BF8663497C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F86CA7-D063-4D80-B307-BF8663497C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F86CA7-D063-4D80-B307-BF8663497C04}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{83F86CA7-D063-4D80-B307-BF8663497C04}.Debug|x64.Build.0 = Debug|Any CPU
+		{83F86CA7-D063-4D80-B307-BF8663497C04}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{83F86CA7-D063-4D80-B307-BF8663497C04}.Debug|x86.Build.0 = Debug|Any CPU
+		{83F86CA7-D063-4D80-B307-BF8663497C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F86CA7-D063-4D80-B307-BF8663497C04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F86CA7-D063-4D80-B307-BF8663497C04}.Release|x64.ActiveCfg = Release|Any CPU
+		{83F86CA7-D063-4D80-B307-BF8663497C04}.Release|x64.Build.0 = Release|Any CPU
+		{83F86CA7-D063-4D80-B307-BF8663497C04}.Release|x86.ActiveCfg = Release|Any CPU
+		{83F86CA7-D063-4D80-B307-BF8663497C04}.Release|x86.Build.0 = Release|Any CPU
+		{3D4B8419-18A7-4A87-9C51-C8D65E3C0D0D}.Debug|Any CPU.ActiveCfg = Release|x64
+		{3D4B8419-18A7-4A87-9C51-C8D65E3C0D0D}.Debug|Any CPU.Build.0 = Release|x64
+		{3D4B8419-18A7-4A87-9C51-C8D65E3C0D0D}.Debug|x64.ActiveCfg = Debug|x64
+		{3D4B8419-18A7-4A87-9C51-C8D65E3C0D0D}.Debug|x64.Build.0 = Debug|x64
+		{3D4B8419-18A7-4A87-9C51-C8D65E3C0D0D}.Debug|x86.ActiveCfg = Debug|Win32
+		{3D4B8419-18A7-4A87-9C51-C8D65E3C0D0D}.Debug|x86.Build.0 = Debug|Win32
+		{3D4B8419-18A7-4A87-9C51-C8D65E3C0D0D}.Release|Any CPU.ActiveCfg = Release|x64
+		{3D4B8419-18A7-4A87-9C51-C8D65E3C0D0D}.Release|Any CPU.Build.0 = Release|x64
+		{3D4B8419-18A7-4A87-9C51-C8D65E3C0D0D}.Release|x64.ActiveCfg = Release|x64
+		{3D4B8419-18A7-4A87-9C51-C8D65E3C0D0D}.Release|x64.Build.0 = Release|x64
+		{3D4B8419-18A7-4A87-9C51-C8D65E3C0D0D}.Release|x86.ActiveCfg = Release|Win32
+		{3D4B8419-18A7-4A87-9C51-C8D65E3C0D0D}.Release|x86.Build.0 = Release|Win32
+		{B8E10499-EAF6-4F25-8D1E-61DA8C600CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E10499-EAF6-4F25-8D1E-61DA8C600CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E10499-EAF6-4F25-8D1E-61DA8C600CD4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B8E10499-EAF6-4F25-8D1E-61DA8C600CD4}.Debug|x64.Build.0 = Debug|Any CPU
+		{B8E10499-EAF6-4F25-8D1E-61DA8C600CD4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B8E10499-EAF6-4F25-8D1E-61DA8C600CD4}.Debug|x86.Build.0 = Debug|Any CPU
+		{B8E10499-EAF6-4F25-8D1E-61DA8C600CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E10499-EAF6-4F25-8D1E-61DA8C600CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8E10499-EAF6-4F25-8D1E-61DA8C600CD4}.Release|x64.ActiveCfg = Release|Any CPU
+		{B8E10499-EAF6-4F25-8D1E-61DA8C600CD4}.Release|x64.Build.0 = Release|Any CPU
+		{B8E10499-EAF6-4F25-8D1E-61DA8C600CD4}.Release|x86.ActiveCfg = Release|Any CPU
+		{B8E10499-EAF6-4F25-8D1E-61DA8C600CD4}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3055BA82-0363-40AE-9C6F-05511E79836D}
+	EndGlobalSection
+EndGlobal
