@@ -6,12 +6,11 @@ encrypt -i INPUT_FILE_PATH -o OUTPUT_FILE_PATH -k OUTPUT_KEY_FILE_PATH<br>
 run -c INPUT_ENCRYPTED_FILE -k KEY_FILE_PATH -args \"ARGUMENT_LIST\"<br>
 <br>
 ### Version Information:<br>
-![image](https://github.com/user-attachments/assets/c2261b32-9dc1-4754-8416-b1d103063f5e)
-<br>
+![image](https://github.com/user-attachments/assets/6e0be062-3d30-49cf-bacb-d83a4d3d487a)<br>
 ### Practical Example: Running the Monero Miner (xmrig.exe)<br>
 #### When trying to start the miner normally, the file will first be locked and then quarantined.<br>
-![image](https://github.com/user-attachments/assets/1e80ca15-1e95-4122-a3c5-d91ba823f853)<br>
+![image](https://github.com/user-attachments/assets/7b57c387-069f-4f25-87f5-073bb2467231)<br>
 #### When starting the miner with this tool, the application will start up successfully<br>
-!<br>
+![image](https://github.com/user-attachments/assets/ce25734a-8b8c-46b5-9abc-fdb0000c5ef3)<br>
 It does recognize the crypto mining connection, but it should never have allowed the application to start up in the first place (it is likely possible to bypass this detection as well somehow).<br>
 The purpose of this demonstration was to show that a blacklisted file can be executed.
