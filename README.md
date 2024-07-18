@@ -5,7 +5,7 @@ Build the RunPE64 DLL and place it in the same directory as the command line too
 #### First, encrypt the executable with<br>
 encrypt -i INPUT_FILE_PATH -o OUTPUT_FILE_PATH -k OUTPUT_KEY_FILE_PATH<br>
 #### Now you can run the encrypted image with<br>
-run -c INPUT_ENCRYPTED_FILE -k KEY_FILE_PATH -args \"ARGUMENT_LIST\"<br>
+run -c INPUT_ENCRYPTED_FILE_PATH -k KEY_FILE_PATH -args \"ARGUMENT_LIST\"<br>
 <br>
 ### Version Information:<br>
 ![image](https://github.com/user-attachments/assets/6e0be062-3d30-49cf-bacb-d83a4d3d487a)<br>
