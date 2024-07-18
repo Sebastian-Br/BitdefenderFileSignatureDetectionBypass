@@ -1,4 +1,6 @@
 ## Run executable files blacklisted by Bitdefender Total Security<br>
+### Building:<br>
+Build the RunPE64 DLL and place it in the same directory as the command line tool<br>
 ### Usage:<br>
 #### First, encrypt the executable with<br>
 encrypt -i INPUT_FILE_PATH -o OUTPUT_FILE_PATH -k OUTPUT_KEY_FILE_PATH<br>
