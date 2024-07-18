@@ -15,4 +15,5 @@ run -c INPUT_ENCRYPTED_FILE -k KEY_FILE_PATH -args \"ARGUMENT_LIST\"<br>
 #### When starting the miner with this tool, the application will start up successfully<br>
 ![image](https://github.com/user-attachments/assets/ce25734a-8b8c-46b5-9abc-fdb0000c5ef3)<br>
 It does recognize the crypto mining connection, but it should never have allowed the application to start up in the first place (it is likely possible to bypass this detection as well somehow).<br>
-The purpose of this demonstration was to show that a blacklisted file can be executed.
+The purpose of this demonstration was to show that a blacklisted file can be executed.<br>
+The test system is a Windows 10 22H2 environment.
